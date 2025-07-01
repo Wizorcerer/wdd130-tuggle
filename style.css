@@ -1,0 +1,24 @@
+nav{
+    height: 150px;
+    justify-self: center;
+    font-size: 2em;
+    border: 5px solid #2e2e2e;
+    border-radius: 50px;
+}
+nav img{
+    width: 100px;
+    background: #C5C1DE
+    border: 5px solid #2e2e2e;
+    border-radius: 50px;
+}
+nav a{
+    padding: 0px 50px;
+    text-decoration: none;
+}
+#wrapper{
+    background: #C5C1DE;
+    width: 800px;
+    justify-self: center;
+    border: 5px solid #2e2e2e;
+    border-radius: 50px;
+}
