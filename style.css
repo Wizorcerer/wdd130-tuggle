@@ -29,7 +29,7 @@ main img{
     margin: 30px 250px;
     justify-self: center;
 }
-p{
+#text{
     border: 5px solid #d100db;
     color: #c5c1de;
     margin: 0px 50px;
@@ -37,5 +37,9 @@ p{
     padding: 10px;
 }
 button{
-    margin: 25px 375px;
+    margin: 10px 375px;
+}
+#text a{
+    text-decoration: none;
+    color: white
 }
