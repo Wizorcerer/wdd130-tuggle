@@ -15,7 +15,7 @@ nav img{
 nav a{
     padding: 0px 50px;
     text-decoration: none;
-    color: #c5c1de
+    color: #c5c1de;
 }
 #wrapper{
     background: #2e2c37;
@@ -26,7 +26,7 @@ nav a{
 }
 main img{
     border: 3px solid #18dbb4;
-    margin: 30px;
+    margin: 30px 250px;
     justify-self: center;
 }
 p{
@@ -35,4 +35,7 @@ p{
     margin: 0px 50px;
     border-radius: 10px;
     padding: 10px;
+}
+button{
+    margin: 25px 375px;
 }
