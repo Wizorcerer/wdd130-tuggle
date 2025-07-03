@@ -2,23 +2,35 @@ nav{
     height: 150px;
     justify-self: center;
     font-size: 2em;
-    border: 5px solid #2e2e2e;
+    border: 5px solid #d100db;
     border-radius: 50px;
 }
 nav img{
     width: 100px;
-    background: #C5C1DE
-    border: 5px solid #2e2e2e;
+    background: #2e2c37;
     border-radius: 50px;
+    margin: 10px;
+    border: 3px solid #d100db
 }
 nav a{
     padding: 0px 50px;
     text-decoration: none;
+    color: #c5c1de
 }
 #wrapper{
-    background: #C5C1DE;
+    background: #2e2c37;
     width: 800px;
+    height: 800px;
     justify-self: center;
-    border: 5px solid #2e2e2e;
-    border-radius: 50px;
+    border: 5px solid #c5c1de;
+}
+div img{
+    border: 3px solid #18dbb4;
+}
+p{
+    border: 5px solid #18dbb4;
+    color: #c5c1de;
+    margin: 0px 50px;
+    border-radius: 10px;
+    padding: 10px;
 }
