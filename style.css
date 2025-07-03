@@ -20,15 +20,17 @@ nav a{
 #wrapper{
     background: #2e2c37;
     width: 800px;
-    height: 800px;
+    height: 875px;
     justify-self: center;
     border: 5px solid #c5c1de;
 }
-div img{
+main img{
     border: 3px solid #18dbb4;
+    margin: 30px;
+    justify-self: center;
 }
 p{
-    border: 5px solid #18dbb4;
+    border: 5px solid #d100db;
     color: #c5c1de;
     margin: 0px 50px;
     border-radius: 10px;
