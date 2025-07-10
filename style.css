@@ -43,3 +43,48 @@ button{
     text-decoration: none;
     color: white
 }
+
+
+
+/* Below is CSS for Weekly Challenge Page */
+
+#challenge-page{
+    color: #c5c1de;
+}
+
+.challenge-description{
+    text-align: center;
+    margin: 20px;
+}
+
+#challenge-title{
+    font-size: 3em;
+    margin: 10px;
+}
+
+#challenge-subtitle{
+    font-size: 1.25em;
+}
+
+#inspo-gallery-title{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.inspiration{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    
+}
+
+.challenge-image{
+    margin: 10px;
+    padding: 0;
+    width: 250px;
+    height: 190px;
+    border: 5px solid #18dbb4;
+    border-radius: 10px;
+}
