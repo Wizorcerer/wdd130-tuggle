@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
 </head>
-<body>
+<body style="background: #2e2c37;">
     
+    <nav style="display: flex; align-items: center; justify-content: center;">
+        <img src="images/Light painting Logo.png" alt="Logo" class="logo" />
+        <a href="index.html">Home</a>
+        <a href="weekly_challenge.html">Weekly Challenge</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+        <main id="gallery-page">
+            <h1 id="gallery-title">Gallery</h1>
+          
+          
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="image-box">
+                        <img src="images/Gallery_page/Img 1.jfif" alt="Light Art 1">
+                    </div>
+                    <p class="submitted-by"><strong>Submitted By:</strong><br> Unknown User</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-box">
+                        <img src="images/Gallery_page/Img 2.jfif" alt="Light Art 2">
+                    </div>
+                    <p class="submitted-by"><strong>Submitted By:</strong><br> LightNoob</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-box">
+                        <img src="images/Gallery_page/Img 3.jfif" alt="Light Art 3">
+                    </div>
+                    <p class="submitted-by"><strong>Submitted By:</strong><br> painterdark</p>
+                </div>
+
+                <div class="gallery-item">
+                    <div class="image-box">
+                        <img src="images/Gallery_page/Img 4.jfif" alt="Light Art 4">
+                    </div>
+                    <p class="submitted-by"><strong>Submitted By:</strong><br> Lightman</p>
+                </div>
+            </div>
+
+
+          <button class="submit-button" onclick="location.href='submit.html'">Submit Your Photo</button>
+        </main>
 </body>
 </html>
